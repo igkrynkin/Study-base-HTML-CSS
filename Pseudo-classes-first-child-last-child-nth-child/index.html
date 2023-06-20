@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-classes-first-child-last-child-nth-child</title>
+    <style>
+        .item, .item2, .item3, .item4 {
+            border: 2px solid orange;
+            margin: 10px;
+            padding: 10px;
+        }
+
+        .item:first-child {
+            background: silver;
+        }
+
+        .item:last-child {
+            background: rgb(194, 235, 194);
+        }
+
+        .item:nth-child(3) {
+            background: #e49797;
+        }
+
+        .item2:nth-child(3n) {
+            background: silver;
+        }
+
+        .item3:nth-child(even) {
+            background: silver;
+        }
+
+        .item4:nth-child(odd) {
+            background: silver;
+        }
+    </style>
+</head>
+<body>
+    <h1>Псевдоклассы (first-child, last-child, nth-child)</h1>
+    <h2>Первый пример, item-1 first-child, item-4 last-child, item-3 nth-child</h2>
+    <div class="container">
+        <div class="item">item-1</div>
+        <div class="item">item-2</div>
+        <div class="item">item-3</div>
+        <div class="item">item-4</div>
+    </div>
+
+
+    <h2>Второй пример, nth-child(even), каждому третьему элементу стиль</h2>
+    <div class="container2">
+        <div class="item2">item-1</div>
+        <div class="item2">item-2</div>
+        <div class="item2">item-3</div>
+        <div class="item2">item-4</div>
+        <div class="item2">item-5</div>
+        <div class="item2">item-6</div>
+        <div class="item2">item-7</div>
+        <div class="item2">item-8</div>
+    </div>
+
+    <h2>Третий пример, nth-child(3), каждому чётному элементу стиль</h2>
+    <div class="container3">
+        <div class="item3">item-1</div>
+        <div class="item3">item-2</div>
+        <div class="item3">item-3</div>
+        <div class="item3">item-4</div>
+        <div class="item3">item-5</div>
+        <div class="item3">item-6</div>
+        <div class="item3">item-7</div>
+        <div class="item3">item-8</div>
+    </div>
+
+    <h2>Четвёртый пример, nth-child(3), каждому нечётному элементу стиль</h2>
+    <div class="container4">
+        <div class="item4">item-1</div>
+        <div class="item4">item-2</div>
+        <div class="item4">item-3</div>
+        <div class="item4">item-4</div>
+        <div class="item4">item-5</div>
+        <div class="item4">item-6</div>
+        <div class="item4">item-7</div>
+        <div class="item4">item-8</div>
+    </div>
+</body>
+</html>
