@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>link-visited-hover-active</title>
+    <style>
+
+        /*ДОЛЖЕН БЫТЬ ОПРЕДЕЛЁННЫЙ ПОРЯДОК link-visited-hover-active, ТОЛЬКО В ТАКОЙ ПОСЛЕДОВАТЕЛЬНОСТИ БУДЕТ РАБОТАТЬ КОРРЕКТНО*/
+
+        /*Цвет неиспользованной ссылки*/
+        a:link {
+            color: green;
+            text-decoration: none;
+        }
+
+         /*Цвет использованной ссылки*/
+        a:visited {
+            color: yellow;
+            text-decoration: none;
+        }
+
+        /*Цвет ссылки при наведении мышки*/
+        a:hover {
+            color: violet;
+            text-decoration: underline;
+        }
+
+        /*Цвет нажатой ссылки*/
+        a:active {
+            color: red;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <H1><a href="https://google.com">GOOGLE</a></H1>
+</body>
+</html>
