@@ -1,1 +1,6 @@
-.header__menu {}
+.header__menu {
+    /* border: 1px solid #ac1b1b; */
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
