@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            display: flex;
+            height: 90vh;
+            /* justify-content: space-around;       Центрует и выравнивает по оси Y */
+            /* align-items: center;                 Центрует и выравнивает по оси Х */
+            flex-direction: column;
+            /* flex-wrap: wrap;     Переносит строку ниже */
+        }
+        .item {
+            padding: 40px;
+            font-size: 25px;
+            border: 1px solid #000;
+            height: fit-content;
+            width: fit-content;
+            flex-basis: 200px;
+        }
+        .item_1 {
+            order: 3;
+            align-self: center;
+            
+        }
+        .item_2 {
+            order: 1;
+            align-self: flex-end;
+        }
+        .item_3 {
+            order: 2;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item item_1">1</div>
+        <div class="item item_2">2</div>
+        <div class="item item_3">3</div>
+        <div class="item item_1">4</div>
+        <div class="item item_2">5</div>
+        <div class="item item_3">6</div>
+        <div class="item item_1">7</div>
+        <div class="item item_2">8</div>
+        <div class="item item_3">9</div>
+    </div>
+</body>
+</html>
+
+
+<!-- link: https://www.youtube.com/watch?v=eVZEwEQg4pg -->
