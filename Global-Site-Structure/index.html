@@ -4,62 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Global Site Structure</title>
-    <style>
-        body {
-            background-color: #7192a8;
-            text-transform: uppercase;
-            font-family: Arial, Helvetica, sans-serif;
-            color: aliceblue;
-            font-size: 28px;
-            text-shadow: 1px 1px 2px black;
-        }
-
-        * {
-            margin: 0;
-            padding: 0;
-        }
-        .container {
-            border: 1px solid #000;
-        }
-        .header {
-            border: 1px solid #f11717;
-            background: linear-gradient(#efade5, #987bc9);
-        }
-        .nav {
-            border: 1px solid #f511a9;
-        }
-        .main {
-            border: 1px solid #2f2bf5;
-            background: linear-gradient(to right, #84ffad, #89e2dd);
-        }
-        .section1 {
-            border: 1px solid #faf607;
-            background: linear-gradient(to right, #a6b2f2, #db7490);
-        }
-        .article {
-            border: 1px solid #ffffff;
-        }
-        .section2 {
-            border: 1px solid #dbf306;
-            background: linear-gradient(to right, #a6b2f2, #db7490);
-        }
-        .aside {
-            border: 1px solid #249900;
-            background: linear-gradient(to right, #d3ff7a, #e76f7a);
-        }
-        .footer {
-            border: 1px solid #bd700d;
-            background: linear-gradient(to right, #f1686d, #bf3c62);
-        }
-    </style>
+    <link rel="stylesheet" href="../Global-Site-Structure/css/style.css">
 </head>
 <body>
     <div class="container">
+        
+    <div class="box">
     <header class="header">
         header
         <nav class="nav">navigation</nav>
     </header>
-
+    </div>
+    <div class="box">
     <main class="main">main
 
         <section class="section1">section1
@@ -69,14 +25,15 @@
         </section>
 
         <section class="section2">section2
-            <article>article4</article>
+            <article class="article">article4</article>
         </section>
 
     </main>
-
     <aside class="aside">aside</aside>
-    
+    </div>
+    <div class="box">
     <footer class="footer">footer</footer>
+    </div>
 
     </div>
 </body>
