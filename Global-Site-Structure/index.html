@@ -7,33 +7,52 @@
     <link rel="stylesheet" href="../Global-Site-Structure/css/style.css">
 </head>
 <body>
+
+    <!-- Container, он же WRAPPER -->
     <div class="container">
-        
-    <div class="box">
-    <header class="header">
-        header
-        <nav class="nav">navigation</nav>
-    </header>
-    </div>
-    <div class="box">
-    <main class="main">main
+        <!-- ТЕГИ ДЕЛЯТСЯ НА: -->
+        <!-- 1. ТЕГИ РАСПОЛОЖЕНИЯ - отвечают за то, где находится тот, или инной элемент на странице, к ним можно отнести HEADER, FOOTER, MAIN, NAV, ASIDE -->
+        <!-- 2. ТЕГИ СОДЕРЖАНИЯ - можно отнести тег ARTICLE, FIGURE -используется для группирования контента, который дополняет или иллюстрирует содержание документа, AUDIO, VIDEO-->
+        <!-- HEADER - шапка сайта, логотип, навигация (меню), это секция которая отображается первой при загрузки страницы -->
+        <div class="box__header">
 
-        <section class="section1">section1
-            <article class="article">article1</article>
-            <article class="article">article2</article>
-            <article class="article">article3</article>
-        </section>
+            <header class="header">
+                <h1>header</h1>
 
-        <section class="section2">section2
-            <article class="article">article4</article>
-        </section>
+                <nav class="nav"><p>navigation</p></nav>
+            </header>
+        </div>
 
-    </main>
-    <aside class="aside">aside</aside>
-    </div>
-    <div class="box">
-    <footer class="footer">footer</footer>
-    </div>
+                <!-- MAIN - блок с основным контентом, не должен включать header, footer, nav, aside -->
+                <div class="box__main">
+                <main class="main">
+                    <h2>main</h2>
+                    <!-- SECTION1 - первый блок в разделе MAIN, ДОПУСКАЕТСЯ вкладывать один тег SECTION в другой, SECTION может себя включать HEADER и FOOTER, это универсальный тэг для хранения информации, может применяться для блока новостей, контактной информации, различных описаний и т.д. -->
+                    <section class="section1">
+                        <h2>section1</h2>
+                        <!-- ACTICLE - статьи сайта, вроде новости, статьи, записи блоков, форумы -->
+                        <article class="article"><h3>article1</h3></article>
+                        <article class="article"><h3>article2</h3></article>
+                        <article class="article"><h3>article3</h3></article>
+                    </section>
+                    <!-- SECTION2 - второй блок в разделе MAIN -->
+                    <section class="section2">
+                        <h2>section2</h2>
+                        <article class="article"><h3>article4</h3></article>
+                    </section>
+                </main>
+
+                                        <!-- ASIDE - определяет блок с боку основного контента, в большинстве своём он предназначен для размещение ссылок, банеров, дополнительной навигации, меток и другой информации, такой блок как правило называется SIDEBAR, или боковая панель и соодержат не важную, или дополнительную информацию  -->
+                                        <aside class="aside">
+                                            <h2>aside</h2></aside>
+                                        </div>
+                                                
+                <!-- FOOTER - подвал сайта, или раздела, в нём может распологаться имя автора, дата документа, контактная информация, копирайт, ссылки на соц сети и т.д. -->
+                <div class="box__footer">
+                    <footer class="footer">
+                        <h2>footer</h2>
+                    </footer>
+                </div>
 
     </div>
 </body>
