@@ -1,0 +1,42 @@
+body {
+    font-size: 20px;
+    border: 1px solid #000;
+}
+
+.header {
+    border: 1px solid #000dca;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-nav {
+    border: 1px solid #ff9900;
+
+    display: flex;
+    align-items: center;
+    
+}
+
+li {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a.header-logo {
+    font-size: 40px;
+    border: 1px solid #04a704;
+}
+
+ul {
+    border: 1px solid #e60000;
+
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0;
+}
