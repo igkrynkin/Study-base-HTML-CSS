@@ -10,12 +10,12 @@ a {
     justify-content: space-around;
 }
 
-.tabs > {
+.tabs {
     display: flex;
 }
 
 .tabs > a {
-    flex:1 1 auto;
+    flex: 1 1 auto;
 }
 
 .tabs > a.active {

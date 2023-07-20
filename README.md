@@ -15,3 +15,4 @@
 12. Global Site Structure - глобальная структура сайта
 13. FlexBox-Start
 14. Flexbox-Exemple1
+15. Flexbox-Exemple2
