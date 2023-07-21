@@ -1,0 +1,61 @@
+.box {
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100vw;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.box>* {
+    flex: 1 1 80px;
+}
+
+.box {
+    border: 1px solid #41c457;
+    border-radius: 5px;
+}
+.one {
+    border: 1px dotted #5137e6;
+    border-radius: 5px;
+}
+.two {
+    border: 1px dotted #5137e6;
+    border-radius: 5px;
+}
+.three {
+    border: 1px dotted #5137e6;
+    border-radius: 5px;
+}
+.four {
+    border: 1px dotted #5137e6;
+    border-radius: 5px;
+}
+.five {
+    border: 1px dotted #5137e6;
+    border-radius: 5px;
+}
+.six {
+    border: 1px dotted #5137e6;
+    border-radius: 5px;
+}
+.seven {
+    border: 1px dotted #5137e6;
+    border-radius: 5px;
+}
+.eight {
+    border: 1px dotted #5137e6;
+    border-radius: 5px;
+}
+.nine {
+    border: 1px dotted #5137e6;
+    border-radius: 5px;
+}
+.ten {
+    border: 1px dotted #5137e6;
+    border-radius: 5px;
+}
