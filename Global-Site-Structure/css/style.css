@@ -16,11 +16,15 @@ body {
     /* margin-top: 30px; */
     /* margin-bottom: 30px; */
 
-    /* display: flex; */
-    /* flex-direction: column; */
-    /* align-items: center; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     /* justify-content: center; */
     /* align-items: center; */
+}
+
+.container>* {
+    flex: 1 1 1;
 }
 
 
@@ -32,22 +36,42 @@ body {
 /* } */
 
 
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
 .header {
     border: 1px solid #f11717;
     background: linear-gradient(#efade5, #987bc9);
+    /* height: 16.008537886873vh; */
+    /* width: 46.875vw; */
 
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    /* width: 900px; */
-    /* height: 150px; */
+    /* align-items: center; */
+    flex-direction: column;
+    /* justify-content: space-between; */
+    width: 900px;
+    height: 200px;
 }
 
 .nav {
     border: 1px solid #f511a9;
     background: linear-gradient(to right, #d0ff75, #95f496);
-    /* width: 800px; */
-    /* height: 60px; */
+    align-self: center;
+
+    /* height:6.4034151547492vh; */
+    /* width: 4.166666666666667vw; */
+    
+    width: 800px;
+    height: 60px;
 }
 
 .main {
@@ -55,10 +79,13 @@ body {
     background: linear-gradient(to right, #84ffad, #89e2dd);
 
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    /* width: 700px; */
-    /* height: 550px; */
+    flex-direction: column;
+    /* align-self:flex-start; */
+
+    /* align-items: center; */
+    /* justify-content: space-between; */
+    width: 700px;
+    height: 550px;
 }
 
 .section1 {
@@ -68,15 +95,15 @@ body {
 
     display: flex;
     flex-direction: column;
-    /* width: 597px; */
-    /* height: 312px; */
+    width: 597px;
+    height: 312px;
 }
 
 .article {
     border: 1px solid #ffffff;
     background: linear-gradient(to right, #4bff76, #42ffd2);
-    /* width: 535px; */
-    /* height: 58px; */
+    width: 535px;
+    height: 58px;
 }
 
 .section2 {
@@ -85,20 +112,22 @@ body {
 
     display: flex;
     flex-direction: column;
-    /* width: 597px; */
-    /* height: 156px; */
+    width: 597px;
+    height: 156px;
 }
 
 .aside {
     border: 1px solid #249900;
     background: linear-gradient(to right, #d3ff7a, #e76f7a);
-    /* width: 200px; */
-    /* height: 550px; */
+    width: 200px;
+    height: 550px;
+
+    /* align-self:flex-end; */
 }
 
 .footer {
     border: 1px solid #bd700d;
     background: linear-gradient(to right, #f1686d, #bf3c62);
-    /* width: 900px; */
-    /* height: 150px; */
+    width: 900px;
+    height: 150px;
 }
