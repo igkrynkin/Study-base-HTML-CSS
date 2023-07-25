@@ -93,6 +93,7 @@ h3 {
     background: linear-gradient(to right, #a6b2f2, #db7490);
     margin-bottom: 20px;
 
+    flex: 1;
     display: flex;
     flex-direction: column;
     width: 597px;

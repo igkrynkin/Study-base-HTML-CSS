@@ -1,0 +1,32 @@
+body {
+    font-size: 46px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 1px 1px 2px #000;
+    color: #fff;
+    text-align: center;
+}
+
+.flex-container {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.flex-item {
+    width: 200px;
+    min-height: 180px;
+
+    background: linear-gradient(to right, #f36c6a, #d25263);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
